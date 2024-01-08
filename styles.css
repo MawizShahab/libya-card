@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 500px;
+    background: #f5f6f6;
+  }
+
+  .main-container {
+    padding: 30px 0px;
+  }
+
+  .card-title {
+    text-align: right;
+    padding: 10px;
+    background: #fff;
+  }
+
+  .card-title p {
+    font-size: 26px;
+  }
+
+  .card-container {
+    /* padding: 10px; */
+    margin: 10px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+  .card-label {
+    padding: 10px;
+    background: #ad904e;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .card-label p {
+    color: #fff;
+    font-size: 26px;
+  }
+
+  .profile-container {
+    padding: 20px;
+  }
+
+  .profile-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+  }
+
+  .profile-photo {
+    padding: 5px;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+    /* width: 130px; */
+    width: 50%;
+    /* height: 140px; */
+  }
+
+  .qr-code {
+    padding: 5px;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+    /* width: 130px; */
+    width: 50%;
+    height: 130px;
+  }
+
+  .qr-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .qr-code span {
+    position: absolute;
+    bottom: -25px;
+    font-weight: bold;
+  }
+
+  .profile-hero img,
+  .qr-code img {
+    width: 100%;
+  }
+
+  .profile-detail-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+
+  .profile-detail {
+    width: 50%;
+  }
+
+  .profile-detail.one,
+  .profile-detail.two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .profile-detail.one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 30px;
+  }
+
+  .profile-detail .label {
+    color: #c4c4c4;
+    font-size: 20px;
+    white-space: nowrap;
+  }
+
+  .profile-detail .detail {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .profile-detail .detail a {
+    font-size: 22px;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .profile-detail.last {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .note {
+    margin-top: 18px;
+    padding-top: 10px;
+    border-top: 1px solid #c4c4c4;
+  }
+
+  .note p {
+    font-size: 12px;
+  }
+}
